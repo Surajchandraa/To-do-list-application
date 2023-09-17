@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    background-image: url("requiredimagesof-project/desktop-wallpaper-best-color-for-backgrounds-of-website-good-background.jpg");
+}
+
+h1{
+    text-align: center;
+}
+h1 img{
+    width: 50px;
+    height: 60px;
+}
+
+.maincontainer{
+    height: 700px;
+    overflow: scroll;
+    width: 1100px;
+    border: 1px solid black;
+    margin: 40px 100px;
+    border-radius: 30px;
+    background-color:  white;
+   
+}
+
+.searchbar{
+    width: 1000px;
+    margin: 50px 150px;
+    
+}
+.searchbar input{
+    width: 890px;
+    height: 40px;
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px ; */
+    border-radius: 30px;
+}
+
+.searchbar button{
+    width: 100px;
+    height: 45px;
+    /* border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 30px;
+    background-color: blueviolet;
+}
+
+ul li{
+    width: 700px;
+    margin: 10px 5px;
+    font-size: larger;
+    list-style-type: none;
+    padding: 0;
+    min-height: 25px;
+    overflow: auto;
+    
+}
+.output{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 20px;
+    min-height: 45px;
+    width: 1000px;
+    border-radius: 30px;
+    margin-left: 50px;
+
+    
+}
+
+.output div{
+    margin: 10px 40px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.output button{
+    width: 100px;
+    height: 45px;
+    /* border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 30px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    
+}
+.output button p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.backcolor{
+    background-color: blueviolet;
+    
+}
+
+.op{
+    opacity: 0.3;
+}
+
